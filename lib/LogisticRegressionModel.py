@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:405719ec80e0b0987e52006c126e6dbce2329b3e985a022897a56ae8b39423ab
-size 1007
+from sklearn.linear_model import LogisticRegression
+from sklearn.pipeline import Pipeline
+from sklearn.model_selection import GridSearchCV
+
+
+class LogisticRegressionModel:
+    def __init__(self, x_train, x_test, y_train, y_test, parameters):
+        self.x_train = x_train
+        self.x_test = x_test
+        self.y_train = y_train
+        self.y_test = y_test
+
+        self.parameters = parameters
+        self.clf = None
+
+    def train(self, scaler, max_iter=3000, cv=3):
+        pipe = Pipeline([('scaler', scaler), ('logreg', LogisticRegression(max_iter=max_iter))])
+
+        self.clf = GridSearchCV(pipe, self.parameters, cv=cv)
+        self.clf.fit(self.x_train, self.y_train)
+
+    def test(self):
+        print('\nModel: Logistic Regression')
+        print('Returned hyperparameter: {}'.format(self.clf.best_params_))
+        print('Best accuracy in train is: {}'.format(self.clf.best_score_))
+        print('Classification accuracy on test is: {}'.format(self.clf.score(self.x_test, self.y_test)))
