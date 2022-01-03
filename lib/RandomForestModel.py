@@ -4,7 +4,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV
 
 
-class LogisticRegressionModel:
+class RandomForestModel:
     def __init__(self, x_train, x_test, y_train, y_test, parameters):
         self.x_train = x_train
         self.x_test = x_test

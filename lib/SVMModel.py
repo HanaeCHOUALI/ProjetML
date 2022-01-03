@@ -3,7 +3,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.svm import LinearSVC
 
 
-class LogisticRegressionModel:
+class SVMModel:
     def __init__(self, x_train, x_test, y_train, y_test, parameters):
         self.x_train = x_train
         self.x_test = x_test
