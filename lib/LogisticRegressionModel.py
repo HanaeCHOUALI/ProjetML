@@ -20,7 +20,6 @@ class LogisticRegressionModel:
         self.clf.fit(self.x_train, self.y_train)
 
     def test(self):
-        print('\nModel: Logistic Regression')
         print('Returned hyperparameter: {}'.format(self.clf.best_params_))
         print('Best accuracy in train is: {}'.format(self.clf.best_score_))
         print('Classification accuracy on test is: {}'.format(self.clf.score(self.x_test, self.y_test)))
