@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c2bea9b-0c83-46bf-9a29-ecb9742d5c8f" name="Changes" comment="Adding main">
-      <change afterPath="$PROJECT_DIR$/lib/NeuralNetwork.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/PCA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="8c2bea9b-0c83-46bf-9a29-ecb9742d5c8f" name="Changes" comment="Final code v1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/ProjetML.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/doc/ProjetML.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/LogisticRegressionModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/LogisticRegressionModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/RandomForestModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/RandomForestModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/SVMModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/SVMModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/ML_Bioinfo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/ProjetML.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/PCA.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/PCA.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +30,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -48,7 +53,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="ProjetML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,6 +75,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="stat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ProjetML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../OneDrive/Bureau" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../OneDrive/Bureau/stat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.stat" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -136,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641241678238</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Final code v1">
+      <created>1641570642606</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641570642606</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +191,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updating projects" />
     <MESSAGE value="Adding main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding main" />
+    <MESSAGE value="Final code v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final code v1" />
   </component>
 </project>
