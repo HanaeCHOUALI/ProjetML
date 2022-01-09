@@ -1,3 +1,4 @@
+### Le projet est accessible via le lien : https://github.com/HanaeCHOUALI/ProjetML
 ### Le projet est réparti de la manière suivante :
 - Le dossier *data* contient les fichiers csv incluant les données utilisées dans le projet.
 - Le dossier *doc* contient le rapport final au format pdf et un fichier notebook sous formats ipynb et html. Le fichier
