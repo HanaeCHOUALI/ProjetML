@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c2bea9b-0c83-46bf-9a29-ecb9742d5c8f" name="Changes" comment="Final code v1">
+    <list default="true" id="8c2bea9b-0c83-46bf-9a29-ecb9742d5c8f" name="Changes" comment="Final code v2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/ML_Bioinfo.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/ProjetML.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/PCA.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/PCA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641570642606</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Final code v2">
+      <created>1641754112935</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641754112935</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +195,7 @@
     <MESSAGE value="Updating projects" />
     <MESSAGE value="Adding main" />
     <MESSAGE value="Final code v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final code v1" />
+    <MESSAGE value="Final code v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final code v2" />
   </component>
 </project>
